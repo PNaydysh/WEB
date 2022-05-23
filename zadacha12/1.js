@@ -1,19 +1,21 @@
-let ageDog = 10;
-let ageDogsGroup;
-if (ageDog <= 1)
+let age = 10;
+let ageGroup;
+
+if(age <= 1)
   {
-    ageDogsGroup = "Щенки";
+    ageGroup = "Щенки";
   }
-if(ageDog>1 && ageDog<=3)
+if(age>1 && age<=3)
   {
-    ageDogsGroup = "Молодые собаки";
+    ageGroup = "Молодые собаки";
   }
-if(ageDog>3 && ageDog<=7)
+if(age>3 && age<=7)
   {
-    ageDogsGroup = "Собаки средних лет";
+    ageGroup = "Собаки средних лет";
   }
-if(ageDog > 7)
+if(age > 7)
   {
-    ageDogsGroup = "Почтенные таксоны";
+    ageGroup = "Почтенные таксоны";
   }
-console.log(ageDogsGroup);
+
+console.log(ageGroup);
