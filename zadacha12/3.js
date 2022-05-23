@@ -23,6 +23,7 @@ if(time >= 7 && time < 20)
       }
     }
   }
+
 if(goToStore)
   {alert("В магазин");}
 if(goToMarket)
