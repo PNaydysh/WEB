@@ -15,5 +15,7 @@ let getSortedArray = function (mass, key)
   return mass;
 }
 
-let n=[{name: 'Петя', age: 5}, {name: 'Лёля', age: 2}, {name: 'Сима', age: 3}];
+let n=[{name: 'Петя', age: 5}, 
+       {name: 'Лёля', age: 2}, 
+       {name: 'Сима', age: 3}];
 console.log(getSortedArray(n,'age'));
