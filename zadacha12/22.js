@@ -1,5 +1,5 @@
-let isRaining = false;
-let temperature = 15;
+const isRaining = false;
+const temperature = 15;
 let minutes;
 
 if(isRaining)
@@ -23,12 +23,12 @@ else{
         }
       else if(temperature < 20)
         {
-          minutes = 20 - (20-temperature);
+          minutes = 20 - (20 - temperature);
         }
     }
-  if(minutes<0)
+  if(minutes < 0)
   {
-    minutes=0
+    minutes = 0
   }
 }
 
