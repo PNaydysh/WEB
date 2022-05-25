@@ -1,4 +1,4 @@
-let lastNumber = 40;
+const lastNumber = 40;
 let multiplicationResult = 0;
 
 for(let i = 0; i <= lastNumber; i++)
