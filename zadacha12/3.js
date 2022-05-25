@@ -12,7 +12,7 @@ if(time >= 7 && time < 20)
         else{goToStore = true;}
       }
     else{
-      if(time >= 14 && time <15)
+      if(time >= 14 && time < 15)
         {
          goToMarket = true;
         }
