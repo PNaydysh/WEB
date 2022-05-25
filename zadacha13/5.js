@@ -1,4 +1,4 @@
-var getSortedArray = function (mass, key) 
+let getSortedArray = function (mass, key) 
 {
   for (let i = 0; i < mass.length - 1; i++) 
   {
