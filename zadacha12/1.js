@@ -1,5 +1,5 @@
-let age = 9;
-let ageGroup;
+const age = 9;
+const ageGroup;
 
 if (age <= 1)
   {
@@ -9,7 +9,7 @@ else if (age>1 && age<=3)
   {
     ageGroup = "Молодые собаки";
   }
-else if (age>3 && age<=7)
+else if (age<=7)
   {
     ageGroup = "Собаки средних лет";
   }
