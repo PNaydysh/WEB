@@ -5,7 +5,7 @@ if (age <= 1)
   {
     ageGroup = "Щенки";
   }
-else if (age>1 && age<=3)
+else if (age<=3)
   {
     ageGroup = "Молодые собаки";
   }
